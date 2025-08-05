@@ -13,12 +13,12 @@ return new class extends Migration
     {
         Schema::create('sensor_pju', function (Blueprint $table) {
             $table->id();
-             $table->integer('voltage');
+            $table->float('voltage');
             $table->integer('lamp_state');
             $table->integer('counter');
             $table->integer('frequency');
             $table->float('power_factor');
-            $table->timestamp('datetime');
+            $table->dateTime('datetime');
             $table->float('brightness');
             $table->float('current');
             $table->float('energy');
