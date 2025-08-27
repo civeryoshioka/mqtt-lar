@@ -6,8 +6,10 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
+        "jeroennoten/laravel-adminlte": "^3.15",
         "laravel/framework": "^11.0",
         "laravel/tinker": "^2.9",
+        "laravel/ui": "^4.6",
         "php-mqtt/laravel-client": "^1.6"
     },
     "require-dev": {
